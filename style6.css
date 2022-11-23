@@ -1,0 +1,61 @@
+{
+  box-sizing: border-box;
+}
+nav >div ul{
+display: flex;
+}
+nav > div li{
+    padding: 0px 30px;
+}
+}
+.nav-link{
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Arial', cursive;
+}
+body{
+background-color: #dce8f4;
+}
+.slider
+{
+    width: 100%;
+
+}
+.carousel-caption h5
+{
+    opacity: .8;
+    color: #fff;
+    font-size: 32px;
+}
+.carousel-caption
+{
+    top: 10%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+h1
+{
+  font-size: 35px;
+  
+  color: #555 !important;
+  padding-bottom: 10px;
+  padding-top: 20px;
+
+}
+h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 2px;
+  width: 100px;
+  
+}
+p {
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: wheat;
+}

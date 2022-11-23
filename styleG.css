@@ -1,0 +1,117 @@
+{
+  box-sizing: border-box;
+}
+nav >div ul{
+display: flex;
+}
+nav > div li{
+    padding: 0px 30px;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Arial', cursive;
+}
+.gallary{
+  border: 1px solid #ccc;
+}
+.gallary img{
+ width: 100%;
+ height: auto;
+
+}
+.desc
+{
+  padding: 15px;
+  text-align: center;
+}
+.reponsive{
+  padding: 8px 8px;
+  float: left;
+  width: 25%;
+}
+body{
+background-color: #f2f3ad;
+}
+footer{
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Arial;
+  letter-spacing: 1px;
+}
+/**/
+.team{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555 ;
+}
+h1
+{
+  text-align: left;
+  padding-left: 10px;
+  color: #3c808c !important;
+  padding-bottom:0px;
+ font-size: 38px; 
+}
+h2
+{
+  text-align: right;
+  padding-right: 20px;
+  color: #3c808c !important;
+  padding-bottom: 0px;
+  font-size: 38px;
+}
+h5
+{
+  text-align:left;
+  font-size: 20px;
+  padding-right: 70px;
+}
+h6
+{
+  text-align: right;
+  font-size: 20px;
+  padding-left: 70px;
+}
+.profile-pic
+{
+  margin-top: 25px;
+
+}
+.profile-pic .img-box
+{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile-pic .img-box img
+{
+  filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+  filter: grayscale(0);
+  cursor: pointer;
+}
+p {
+  text-align: center
+  padding-bottom: 20px;
+  
+}
+
+footer {
+  padding: 20px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(ser.jpg);
+  text-align: center;
+  text-size-adjust: 5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+}
+
+a {
+  color: #258793;
+}

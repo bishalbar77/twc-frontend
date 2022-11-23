@@ -1,0 +1,115 @@
+nav >div ul{
+display: flex;
+}
+nav > div li{
+    padding: 0px 30px;
+}
+.car{
+    height: 100vh;
+}
+body{
+background-color: #dce8f4;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Arial', cursive;
+}
+#team
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555 !important;
+
+}
+.container h1{
+  text-align: center;
+  color: #555 !important;
+  padding-bottom: 10px;
+
+}
+.container h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.responsive{
+  max-width: 100%;
+}
+.profile-pic
+{
+  margin-top: 25px;
+
+}
+.profile-pic .img-box
+{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile-pic .img-box img
+{
+  filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.profile-pic h2{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #007bff !important;
+}
+.profile-pic h4{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+
+}
+.img-box{
+  width: 100%;
+ /* 1:1 Aspect Ratio */
+  position: relative;
+}
+.img-box img{
+  max-width:200px;
+}
+#Contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder{
+   color: #999 !important;
+}
+.folllow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa{
+margin: 10px;
+color: #efefef;
+font-weight: bold;
+}
+.button{
+  color: #eee;
+}
